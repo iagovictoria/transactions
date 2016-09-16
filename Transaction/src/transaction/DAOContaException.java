@@ -1,5 +1,4 @@
-
-import transaction.Conta;
+package transaction;
 
 /*
  * To change this license header, choose License Headers in Project Properties.
@@ -11,10 +10,6 @@ import transaction.Conta;
  *
  * @author 11204974
  */
-public interface ContaDAO {
-
-	void transferir(Conta c1, Conta c2) throws DAOContaException;
-
-        
+class DAOContaException extends Exception {
+    
 }
-
