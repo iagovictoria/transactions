@@ -36,9 +36,9 @@ public class Conta {
         this.saldo = saldo;
     }
     
-    public void transferir(Conta c1, Conta c2){
-        c1.saldo = c1.saldo - 50.00;
-        c2.saldo = c2.saldo + 50.00;
+    public void transferir(Conta c1){
+        this.saldo = this.saldo - 50.00;
+        c1.saldo = c1.saldo + 50.00;
     }
  
     

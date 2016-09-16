@@ -11,5 +11,9 @@ package transaction;
  * @author 11204974
  */
 class DAOContaException extends Exception {
+
+    DAOContaException(String falha, Exception e) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
     
 }
