@@ -1,0 +1,60 @@
+
+create table CONTA
+( ID INT not null primary key
+        GENERATED ALWAYS AS IDENTITY
+        (START WITH 1, INCREMENT BY 1),
+SALDO DOUBLE);
+
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+insert into CONTA (saldo) values(5000.00);
+
+
+
