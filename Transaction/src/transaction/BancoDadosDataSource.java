@@ -11,7 +11,7 @@ import javax.sql.DataSource;
  */
 public class BancoDadosDataSource {
     public static String DB_CONN_STRING = "jdbc:derby://localhost:1527/tecnicas";
-    public static String DB_NAME = "tecnicas";
+    public static String DB_NAME = "ROOT";
     public static String USER_NAME = "root";
     public static String PASSWORD = "root";
     private static DataSource dataSource;

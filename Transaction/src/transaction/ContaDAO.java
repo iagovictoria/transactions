@@ -1,6 +1,7 @@
 package transaction;
 
 
+import java.util.List;
 import transaction.Conta;
 
 /*
@@ -16,6 +17,7 @@ import transaction.Conta;
 public interface ContaDAO {
 
 	void transferir(Conta c1, Conta c2) throws DAOContaException;
+        List<Conta> buscarContas() throws DAOContaException;
 
         
 }

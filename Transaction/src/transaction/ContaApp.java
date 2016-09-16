@@ -5,6 +5,8 @@
  */
 package transaction;
 
+import java.util.List;
+
 /**
  *
  * @author 11204974
@@ -12,11 +14,15 @@ package transaction;
 public class ContaApp {
     
     
-    public static void main(String [] args)
+    public static void main(String [] args) throws DAOContaException
 	{
-		ContaDAO c1 =  new ContaDAODerby();
-
-
+            ContaDAO conta = new ContaDAODerby();
+            
+		List<Conta> contas = conta.buscarContas();
+                
+                for(Conta c : contas ){
+                    System.out.println(c.getId() + ": " + c.getSaldo());
+                }
                     
 	}
     

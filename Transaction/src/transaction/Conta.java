@@ -14,32 +14,32 @@ public class Conta {
     /**
      * @param args the command line arguments
      */
-    
     private int id;
     private double saldo;
 
-    public Conta(int id, double saldo){
+    public Conta(int id, double saldo) {
         this.id = id;
         this.saldo = saldo;
-        
+
     }
-    
+
     public int getId() {
         return id;
     }
 
-    public double getValor() {
+    public double getSaldo() {
         return saldo;
     }
 
-    public void setValor(double valor) {
+    public void setSaldo(double saldo) {
         this.saldo = saldo;
     }
-    
-    public void transferir(Conta c1){
-        this.saldo = this.saldo - 50.00;
-        c1.saldo = c1.saldo + 50.00;
+
+    public void transferir(Conta c) {
+        if (this.saldo >= 50) {
+            this.saldo = this.saldo - 50.00;
+            c.saldo = c.saldo + 50.00;
+        }
     }
- 
-    
+
 }
